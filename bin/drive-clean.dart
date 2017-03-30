@@ -7,8 +7,7 @@ import 'package:path/path.dart';
 
 main() async {
   // Just get the directory on which we want to run the script.
-  //Directory dir = await getDirectory(true);
-  Directory dir = await new Directory('/Users/polbatllo/Google Drive/Medtronic');
+  Directory dir = await getDirectory(true);
 
   // Just make sure we are in the correct directory.
   printGreen("The directory selected is: ${dir.path}. Continue? (Y/N)");
