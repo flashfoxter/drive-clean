@@ -1,0 +1,11 @@
+name: drive_clean
+version: 0.0.1
+description: A Command line application to remove duplicates.
+dependencies:
+  fs_shim: 0.6.7
+  colorize: any
+  googleapis:
+  googleapis_auth:
+
+dev_dependencies:
+#  unittest: any
